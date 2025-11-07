@@ -1,0 +1,85 @@
+---
+title: Getting Started
+
+description: Step-by-step guide to creating your first signature with Paperguide
+---
+
+## Create Your First Signature
+
+You begin by visiting the Paperguide website and selecting a signature type. The interface guides you through drawing, typing, or uploading. Preview changes in real-time to ensure it fits your needs.
+
+<Steps>
+  <Step title="Choose Signature Type" icon="plus">
+    Select from handwritten, typed, or upload options.
+    <Callout kind="tip">
+      Start with typed for simplicity if you're new.
+    </Callout>
+  </Step>
+  <Step title="Draw or Enter Text" icon="edit">
+    For handwritten, use your mouse or touchpad. For typed, input your name and style.
+    ```javascript
+    // Simulate typed signature data
+    const signatureData = {
+      type: 'typed',
+      text: 'John Doe',
+      font: 'Signature Script'
+    };
+    console.log(signatureData);
+    ```
+  </Step>
+  <Step title="Customize Appearance" icon="settings">
+    Adjust size, color, and effects like shadow or outline.
+  </Step>
+  <Step title="Preview and Download" icon="download">
+    View the final signature and export in your preferred format.
+  </Step>
+</Steps>
+
+## System Requirements
+
+Paperguide works on modern browsers like Chrome, Firefox, and Safari. No special hardware needed beyond a standard computer or mobile device. You access it online without downloads.
+
+<Tabs>
+  <Tab title="Desktop" icon="monitor">
+    Use mouse for precise drawing in handwritten mode.
+    <Columns cols={2}>
+      <Card title="Browser Support" icon="globe">
+        Compatible with latest versions.
+      </Card>
+      <Card title="Touch Support" icon="mouse-pointer">
+        Works with trackpads too.
+      </Card>
+    </Columns>
+  </Tab>
+  <Tab title="Mobile" icon="phone">
+    Touch-friendly interface for on-the-go creation.
+    <Expandable title="Mobile Tips">
+      Zoom in for detailed drawing. Save directly to device gallery.
+    </Expandable>
+  </Tab>
+</Tabs>
+
+## Troubleshooting Common Issues
+
+If the drawing tool lags, ensure your browser is updated. For upload errors, check file size limits under 5MB. Contact support via the help section if problems persist.
+
+<CodeGroup tabs="HTML,CSS">
+  ````html
+  <!-- Embed signature in email template -->
+  <img src="signature.png" alt="John Doe Signature" style="width: 200px;">
+  ````
+  ```css
+  /* Style the signature image */
+  img.signature {
+    border: none;
+    max-width: 250px;
+    height: auto;
+  }
+  ```
+</CodeGroup>
+
+<Callout kind="alert">
+  Always test your signature in the target application before final use.
+</Callout>
+
+You complete your first signature in under five minutes. Practice with different types to find your favorite. This guide ensures smooth onboarding for all users.
